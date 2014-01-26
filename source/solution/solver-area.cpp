@@ -1,7 +1,5 @@
-class Solver: public SolverInterface {
-public:
+struct Solver: SolverInterface {
   const OutputStorage* solve( const InputStorage* in, OutputStorage* out ) {
     return out;
   }
-protected:
 };

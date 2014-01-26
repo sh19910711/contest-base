@@ -6,8 +6,7 @@
 // @snip <sh19910711/contest-base:solution/namespace-area.cpp>
 // @snip <sh19910711/contest-base:solution/storages-area.cpp>
 // @snip <sh19910711/contest-base:solution/solver-area.cpp>
-class Solution: public SolutionBase {
-public:
+struct Solution: SolutionBase {
   bool input( InputStorage* in ) {
   }
   void output( const OutputStorage* out ) {
