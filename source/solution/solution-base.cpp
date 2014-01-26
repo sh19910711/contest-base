@@ -1,4 +1,4 @@
-// @snip <sh19910711/contest-base:solution/interface.cpp>
+// @snip <sh19910711/contest-base:solution/solution-interface.cpp>
 class SolutionBase: public SolutionInterface {
 public:
   virtual ~SolutionBase() {};
