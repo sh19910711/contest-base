@@ -1,10 +1,8 @@
-class SolutionInterface {
-public:
+struct SolutionInterface {
   virtual ~SolutionInterface() {};
-  virtual int run() = 0;
   SolverInterface* solver;
   Storages* storages;
-protected:
+  virtual int run() = 0;
   virtual bool input( InputStorage* s ) = 0;
   virtual void output( const OutputStorage* s ) = 0; 
   virtual void before_all_actions() {}
