@@ -1,6 +1,5 @@
 // @snip <sh19910711/contest-base:solution/interface.cpp>
-class SolutionBase: public SolutionInterface {
-public:
+struct SolutionBase: public SolutionInterface {
   virtual ~SolutionBase() {}; 
   virtual int run() {
     int tests = 0;

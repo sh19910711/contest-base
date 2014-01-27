@@ -1,6 +1,5 @@
-// @snip <sh19910711/contest-base:solution/interface.cpp>
-class SolutionBase: public SolutionInterface {
-public:
+// @snip <sh19910711/contest-base:solution/solution-interface.cpp>
+struct SolutionBase: SolutionInterface {
   virtual ~SolutionBase() {};
   virtual int run() {
     this->before_all_actions();
