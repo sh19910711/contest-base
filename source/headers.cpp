@@ -17,3 +17,10 @@
 #include <cstdlib>
 #include <cstring>
 #include <cmath>
+
+#define __THIS_IS_CPP11__
+#ifdef __THIS_IS_CPP11__
+#include <memory>
+#include <array>
+#endif
+
