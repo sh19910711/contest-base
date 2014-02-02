@@ -1,5 +1,6 @@
 // @snip <sh19910711/contest-base:headers.cpp>
-// @snip <sh19910711/contest-base:solution/solution.cpp>
+// @snip <sh19910711/contest-base:utils/collection.cpp>
+// @snip <sh19910711/contest-base:solution/template-solution.cpp>
 #ifndef __MY_UNIT_TEST__
 int main() {
   using namespace solution;
