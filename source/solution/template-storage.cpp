@@ -1,4 +1,6 @@
 struct InputStorage {
 };
+
 struct OutputStorage {
 };
+
