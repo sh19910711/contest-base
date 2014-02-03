@@ -1,5 +1,5 @@
 struct Solver: SolverInterface {
-  const OutputStorage* solve( const InputStorage* in, OutputStorage* out ) {
+  const Output* solve( const Input* in, Output* out ) {
     return out;
   }
 };
