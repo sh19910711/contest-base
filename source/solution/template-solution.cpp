@@ -7,9 +7,9 @@
 // @snip <sh19910711/contest-base:solution/template-storage.cpp>
 // @snip <sh19910711/contest-base:solution/template-solver-area.cpp>
 struct Solution: SolutionBase {
-  bool input( InputStorage* in ) {
+  bool input( Input* in ) {
     return false;
   }
-  void output( const OutputStorage* out ) {
+  void output( const Output* out ) {
   }
 };
