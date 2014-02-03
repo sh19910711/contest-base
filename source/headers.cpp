@@ -1,3 +1,4 @@
+#define __THIS_IS_CPP11__
 #include <iostream>
 #include <sstream>
 #include <fstream>
@@ -18,7 +19,6 @@
 #include <cstring>
 #include <cmath>
 
-#define __THIS_IS_CPP11__
 #ifdef __THIS_IS_CPP11__
 #include <memory>
 #include <array>

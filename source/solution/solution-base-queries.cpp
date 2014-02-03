@@ -1,8 +1,9 @@
 struct SolutionBase: SolutionInterface {
-  int queries;
   virtual ~SolutionBase() {};
-  virtual bool input_query( InputStorage* in ) { return false; }
-  virtual bool action() {
+  int queries;
+  virtual bool input_query( InputStorage* in ) = 0;
+
+  bool action() {
     if ( ! this->input(this->storages->in) )
       return false;
     for ( int i = 0; i < queries; ++ i ) {
@@ -11,7 +12,8 @@ struct SolutionBase: SolutionInterface {
     }
     return true;
   }
-  virtual int run() {
+
+  int run() {
     this->before_all_actions();
     for (;;) {
       this->before_action(-1);
