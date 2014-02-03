@@ -1,6 +1,6 @@
-struct InputStorage {
+struct Input {
 };
 
-struct OutputStorage {
+struct Output {
 };
 

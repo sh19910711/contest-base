@@ -1,6 +1,6 @@
-struct InputStorage;
-struct OutputStorage;
+struct Input;
+struct Output;
 struct Storages {
-  InputStorage* in;
-  OutputStorage* out;
+  Input* in;
+  Output* out;
 };
